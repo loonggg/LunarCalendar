@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         tv5 = (TextView) findViewById(R.id.tv5);
         tv1.setText(LunarCalendar.getLunarYearMonthDay(2017, 5, 27));
         tv2.setText(LunarCalendar.getLunarYear(2017, 5, 27, true));
-        tv3.setText(LunarCalendar.getLunarYear(2017, 5, 27, false));
+        tv3.setText(LunarCalendar.getLunarYear(2017, 5, 27, false)+"年");
         tv4.setText(LunarCalendar.getLunarMonthDay(2017, 5, 27));
         tv5.setText(LunarCalendar.getLunarAnimal(2017, 5, 27));
     }
